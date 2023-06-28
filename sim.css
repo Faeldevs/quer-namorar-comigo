@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/banner.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(213, 93, 93);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    gap: 2em;
+}
+
+h2{
+    font-size: 5rem;
+    color: rgb(255, 24, 132);
+}
+
+p{
+    font-style: italic;
+    font-size: 3rem;
+    color: rgb(201, 96, 136);
+}
